@@ -43,6 +43,12 @@ public class MainClass {
 		
 		System.out.println();
 		
+		Printer printer = new Printer();
+		printer.println(10);
+		printer.println(true);
+		printer.println(5.7);
+		printer.println("홍길동");
+		
 	}
 
 }
